@@ -32,6 +32,7 @@ export default function TextReveal({ word = "Jay Marc Gososo", className = "" }:
             </span>
           ))}
         </h1>
+        
       </div>
 
      
