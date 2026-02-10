@@ -5,20 +5,28 @@ import HeroSection from "@/components/hero-section";
 import IntegrationsSection from "@/components/integrations-1";
 import StatsSection from "@/components/stats";
 import TeamSection from "@/components/team";
-import { SparklesCore } from "@/components/ui/sparkles";
+import TextReveal from "@/components/text-reveal";
+import { Timeline } from "@/components/ui/timeline";
 import { Stats } from "fs";
+import * as React from "react";
+
+
 
 export default function Home() {
   return (
   
     <div> 
-      <HeroSection />
-      <Features />
-      <IntegrationsSection />
+      {/* <HeroSection /> */}
+<TextReveal/>
+<Timeline data={[]}/>
+       
+      
+      {/* <Features /> */}
+      {/* <IntegrationsSection />
       <StatsSection />
-      <TeamSection />
-      <FAQsFour />
-      <FooterSection /> 
+      {/* <TeamSection /> */}
+      {/* <FAQsFour />
+      <FooterSection />  */}
     </div>
   );
 }
