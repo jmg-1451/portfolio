@@ -16,7 +16,7 @@ export default function TextReveal({ word = "Jay Marc Gososo", className = "" }:
   };
 
   return (
-    <div className={`text-reveal-container ${className}`}>
+    <div className={`text-reveal-container ${className}`} data-text-reveal>
       
       <div key={key} className="text-wrapper">
         <h1 className="title" aria-label={word}>
